@@ -2,14 +2,14 @@
 
 namespace ReflectionExample
 {
-    public class Sample
+    public class SampleProperty
     {
         public string NameExample { get; set; }
         public int AgeExample { get; set; }
 
         public void MyMethodExample()
         {
-            Console.WriteLine($"Result of method {nameof(Sample)}");
+            Console.WriteLine($"Result of method {nameof(SampleProperty)}");
         }
     }
 }

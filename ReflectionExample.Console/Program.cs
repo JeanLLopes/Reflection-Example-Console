@@ -41,8 +41,8 @@ namespace ReflectionExample
 
 
             //EXAMPLE POPULATE
-            var sample = new Sample { NameExample = "Jean", AgeExample = 20 };
-            var sampleType = typeof(Sample);
+            var sample = new SampleProperty { NameExample = "Jean", AgeExample = 20 };
+            var sampleType = typeof(SampleProperty);
 
             //INVOKE YOUR METHOD BY REFLACTION
             var sampleMethod = sampleType.GetMethod("MyMethodExample");
