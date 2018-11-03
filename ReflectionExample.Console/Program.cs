@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Reflection;
 
+
 namespace ReflectionExample
 {
     public static class Program
@@ -48,17 +49,6 @@ namespace ReflectionExample
             sampleMethod.Invoke(sample, null);
 
             Console.ReadKey();
-        }
-    }
-
-    public class Sample
-    {
-        public string NameExample { get; set; }
-        public int AgeExample { get; set; }
-
-        public void MyMethodExample()
-        {
-            Console.WriteLine($"Result of method {nameof(Sample)}");
         }
     }
 }
